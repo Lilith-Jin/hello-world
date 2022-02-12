@@ -21,7 +21,8 @@
 
   <div class="field">
     <%= form.label :publish_date %>
-    <%= form.date_select :publish_date %>
+    <%#= form.date_select :publish_date %>
+    <%= form.date_field :date, class: 'datepicker' %>
   </div>
 
   <div class="field">
